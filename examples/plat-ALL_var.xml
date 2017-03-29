@@ -1,0 +1,451 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "http://simgrid.gforge.inria.fr/simgrid.dtd">
+<platform version="3">
+  <AS id="AS0" routing="Full">
+
+	<host id="MRA-Host 0" power="6352579706.8" core="2" />
+	<host id="MRA-Host 1" power="4057888966.0" core="2" />
+	<host id="MRA-Host 2" power="5015342939.5" core="2" />
+	<host id="MRA-Host 3" power="4857765363.42" core="2" />
+	<host id="MRA-Host 4" power="5435267663.21" core="2" />
+	<host id="MRA-Host 5" power="5172358085.77" core="2" />
+	<host id="MRA-Host 6" power="6488778209.63" core="2" />
+	<host id="MRA-Host 7" power="5968555348.69" core="2" />
+	<host id="MRA-Host 8" power="4528966964.71" core="2" />
+	<host id="MRA-Host 9" power="4327645353.37" core="2" />
+	<host id="MRA-Host 10" power="6393271285.86" core="2" />
+
+	<link id="l1" bandwidth="83820538.5923" latency="0.00590827622003" />
+	<link id="l2" bandwidth="64458992.8165" latency="0.00424752652743" />
+	<link id="l3" bandwidth="44997930.6036" latency="0.000739317771884" />
+	<link id="l4" bandwidth="61970594.7596" latency="0.006642667472" />
+	<link id="l5" bandwidth="26276215.016" latency="0.00204899853947" />
+	<link id="l6" bandwidth="80154583.7684" latency="0.0041626071547" />
+	<link id="l7" bandwidth="30273850.5717" latency="0.000653846736594" />
+	<link id="l8" bandwidth="106170593.702" latency="0.00733310478917" />
+	<link id="l9" bandwidth="87828081.0144" latency="0.00877341976515" />
+	<link id="l10" bandwidth="78956362.1515" latency="0.000725889847914" />
+
+	<route src="MRA-Host 0" dst="MRA-Host 1">
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 0" dst="MRA-Host 2">
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 0" dst="MRA-Host 3">
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 0" dst="MRA-Host 4">
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 0" dst="MRA-Host 5">
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 0" dst="MRA-Host 6">
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 0" dst="MRA-Host 7">
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 0" dst="MRA-Host 8">
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 0" dst="MRA-Host 9">
+		<link_ctn id="l9"/>
+	</route>
+	<route src="MRA-Host 0" dst="MRA-Host 10">
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 1" dst="MRA-Host 0">
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 1" dst="MRA-Host 2">
+		<link_ctn id="l1"/>
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 1" dst="MRA-Host 3">
+		<link_ctn id="l1"/>
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 1" dst="MRA-Host 4">
+		<link_ctn id="l1"/>
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 1" dst="MRA-Host 5">
+		<link_ctn id="l1"/>
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 1" dst="MRA-Host 6">
+		<link_ctn id="l1"/>
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 1" dst="MRA-Host 7">
+		<link_ctn id="l1"/>
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 1" dst="MRA-Host 8">
+		<link_ctn id="l1"/>
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 1" dst="MRA-Host 9">
+		<link_ctn id="l1"/>
+		<link_ctn id="l9"/>
+	</route>
+	<route src="MRA-Host 1" dst="MRA-Host 10">
+		<link_ctn id="l1"/>
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 2" dst="MRA-Host 0">
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 2" dst="MRA-Host 1">
+		<link_ctn id="l2"/>
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 2" dst="MRA-Host 3">
+		<link_ctn id="l2"/>
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 2" dst="MRA-Host 4">
+		<link_ctn id="l2"/>
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 2" dst="MRA-Host 5">
+		<link_ctn id="l2"/>
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 2" dst="MRA-Host 6">
+		<link_ctn id="l2"/>
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 2" dst="MRA-Host 7">
+		<link_ctn id="l2"/>
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 2" dst="MRA-Host 8">
+		<link_ctn id="l2"/>
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 2" dst="MRA-Host 9">
+		<link_ctn id="l2"/>
+		<link_ctn id="l9"/>
+	</route>
+	<route src="MRA-Host 2" dst="MRA-Host 10">
+		<link_ctn id="l2"/>
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 3" dst="MRA-Host 0">
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 3" dst="MRA-Host 1">
+		<link_ctn id="l3"/>
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 3" dst="MRA-Host 2">
+		<link_ctn id="l3"/>
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 3" dst="MRA-Host 4">
+		<link_ctn id="l3"/>
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 3" dst="MRA-Host 5">
+		<link_ctn id="l3"/>
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 3" dst="MRA-Host 6">
+		<link_ctn id="l3"/>
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 3" dst="MRA-Host 7">
+		<link_ctn id="l3"/>
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 3" dst="MRA-Host 8">
+		<link_ctn id="l3"/>
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 3" dst="MRA-Host 9">
+		<link_ctn id="l3"/>
+		<link_ctn id="l9"/>
+	</route>
+	<route src="MRA-Host 3" dst="MRA-Host 10">
+		<link_ctn id="l3"/>
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 4" dst="MRA-Host 0">
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 4" dst="MRA-Host 1">
+		<link_ctn id="l4"/>
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 4" dst="MRA-Host 2">
+		<link_ctn id="l4"/>
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 4" dst="MRA-Host 3">
+		<link_ctn id="l4"/>
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 4" dst="MRA-Host 5">
+		<link_ctn id="l4"/>
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 4" dst="MRA-Host 6">
+		<link_ctn id="l4"/>
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 4" dst="MRA-Host 7">
+		<link_ctn id="l4"/>
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 4" dst="MRA-Host 8">
+		<link_ctn id="l4"/>
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 4" dst="MRA-Host 9">
+		<link_ctn id="l4"/>
+		<link_ctn id="l9"/>
+	</route>
+	<route src="MRA-Host 4" dst="MRA-Host 10">
+		<link_ctn id="l4"/>
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 5" dst="MRA-Host 0">
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 5" dst="MRA-Host 1">
+		<link_ctn id="l5"/>
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 5" dst="MRA-Host 2">
+		<link_ctn id="l5"/>
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 5" dst="MRA-Host 3">
+		<link_ctn id="l5"/>
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 5" dst="MRA-Host 4">
+		<link_ctn id="l5"/>
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 5" dst="MRA-Host 6">
+		<link_ctn id="l5"/>
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 5" dst="MRA-Host 7">
+		<link_ctn id="l5"/>
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 5" dst="MRA-Host 8">
+		<link_ctn id="l5"/>
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 5" dst="MRA-Host 9">
+		<link_ctn id="l5"/>
+		<link_ctn id="l9"/>
+	</route>
+	<route src="MRA-Host 5" dst="MRA-Host 10">
+		<link_ctn id="l5"/>
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 6" dst="MRA-Host 0">
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 6" dst="MRA-Host 1">
+		<link_ctn id="l6"/>
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 6" dst="MRA-Host 2">
+		<link_ctn id="l6"/>
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 6" dst="MRA-Host 3">
+		<link_ctn id="l6"/>
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 6" dst="MRA-Host 4">
+		<link_ctn id="l6"/>
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 6" dst="MRA-Host 5">
+		<link_ctn id="l6"/>
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 6" dst="MRA-Host 7">
+		<link_ctn id="l6"/>
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 6" dst="MRA-Host 8">
+		<link_ctn id="l6"/>
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 6" dst="MRA-Host 9">
+		<link_ctn id="l6"/>
+		<link_ctn id="l9"/>
+	</route>
+	<route src="MRA-Host 6" dst="MRA-Host 10">
+		<link_ctn id="l6"/>
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 7" dst="MRA-Host 0">
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 7" dst="MRA-Host 1">
+		<link_ctn id="l7"/>
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 7" dst="MRA-Host 2">
+		<link_ctn id="l7"/>
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 7" dst="MRA-Host 3">
+		<link_ctn id="l7"/>
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 7" dst="MRA-Host 4">
+		<link_ctn id="l7"/>
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 7" dst="MRA-Host 5">
+		<link_ctn id="l7"/>
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 7" dst="MRA-Host 6">
+		<link_ctn id="l7"/>
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 7" dst="MRA-Host 8">
+		<link_ctn id="l7"/>
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 7" dst="MRA-Host 9">
+		<link_ctn id="l7"/>
+		<link_ctn id="l9"/>
+	</route>
+	<route src="MRA-Host 7" dst="MRA-Host 10">
+		<link_ctn id="l7"/>
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 8" dst="MRA-Host 0">
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 8" dst="MRA-Host 1">
+		<link_ctn id="l8"/>
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 8" dst="MRA-Host 2">
+		<link_ctn id="l8"/>
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 8" dst="MRA-Host 3">
+		<link_ctn id="l8"/>
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 8" dst="MRA-Host 4">
+		<link_ctn id="l8"/>
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 8" dst="MRA-Host 5">
+		<link_ctn id="l8"/>
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 8" dst="MRA-Host 6">
+		<link_ctn id="l8"/>
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 8" dst="MRA-Host 7">
+		<link_ctn id="l8"/>
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 8" dst="MRA-Host 9">
+		<link_ctn id="l8"/>
+		<link_ctn id="l9"/>
+	</route>
+	<route src="MRA-Host 8" dst="MRA-Host 10">
+		<link_ctn id="l8"/>
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 9" dst="MRA-Host 0">
+		<link_ctn id="l9"/>
+	</route>
+	<route src="MRA-Host 9" dst="MRA-Host 1">
+		<link_ctn id="l9"/>
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 9" dst="MRA-Host 2">
+		<link_ctn id="l9"/>
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 9" dst="MRA-Host 3">
+		<link_ctn id="l9"/>
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 9" dst="MRA-Host 4">
+		<link_ctn id="l9"/>
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 9" dst="MRA-Host 5">
+		<link_ctn id="l9"/>
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 9" dst="MRA-Host 6">
+		<link_ctn id="l9"/>
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 9" dst="MRA-Host 7">
+		<link_ctn id="l9"/>
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 9" dst="MRA-Host 8">
+		<link_ctn id="l9"/>
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 9" dst="MRA-Host 10">
+		<link_ctn id="l9"/>
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 10" dst="MRA-Host 0">
+		<link_ctn id="l10"/>
+	</route>
+	<route src="MRA-Host 10" dst="MRA-Host 1">
+		<link_ctn id="l10"/>
+		<link_ctn id="l1"/>
+	</route>
+	<route src="MRA-Host 10" dst="MRA-Host 2">
+		<link_ctn id="l10"/>
+		<link_ctn id="l2"/>
+	</route>
+	<route src="MRA-Host 10" dst="MRA-Host 3">
+		<link_ctn id="l10"/>
+		<link_ctn id="l3"/>
+	</route>
+	<route src="MRA-Host 10" dst="MRA-Host 4">
+		<link_ctn id="l10"/>
+		<link_ctn id="l4"/>
+	</route>
+	<route src="MRA-Host 10" dst="MRA-Host 5">
+		<link_ctn id="l10"/>
+		<link_ctn id="l5"/>
+	</route>
+	<route src="MRA-Host 10" dst="MRA-Host 6">
+		<link_ctn id="l10"/>
+		<link_ctn id="l6"/>
+	</route>
+	<route src="MRA-Host 10" dst="MRA-Host 7">
+		<link_ctn id="l10"/>
+		<link_ctn id="l7"/>
+	</route>
+	<route src="MRA-Host 10" dst="MRA-Host 8">
+		<link_ctn id="l10"/>
+		<link_ctn id="l8"/>
+	</route>
+	<route src="MRA-Host 10" dst="MRA-Host 9">
+		<link_ctn id="l10"/>
+		<link_ctn id="l9"/>
+	</route>
+
+  </AS>
+</platform>
